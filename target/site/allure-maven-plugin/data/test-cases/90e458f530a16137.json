@@ -1,0 +1,462 @@
+{
+  "uid" : "90e458f530a16137",
+  "name" : "вклады в рублях",
+  "historyId" : "9618cab21b99c4ee0ecb38d01ca0b77",
+  "time" : {
+    "start" : 1526476026674,
+    "stop" : 1526476047856,
+    "duration" : 21182
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "statusDetails" : {
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "BaseSteps.setUp()",
+      "time" : {
+        "start" : 1526476040192,
+        "stop" : 1526476040194,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Когда  Выбрали калькулятор для сервиса -  \"Вклады\"",
+      "time" : {
+        "start" : 1526476040197,
+        "stop" : 1526476041721,
+        "duration" : 1524
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : "выбрали калькулятор из основных сервисов главной страницы - {itemName}",
+        "time" : {
+          "start" : 1526476040435,
+          "stop" : 1526476041716,
+          "duration" : 1281
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "serviceName",
+          "value" : "Вклады"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Тогда  Заголовок страницы равен - \"Рассчитайте доходность по вкладу\"",
+      "time" : {
+        "start" : 1526476041722,
+        "stop" : 1526476041811,
+        "duration" : 89
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : "проверили что появился заголовок на странице - Рассчитайте доходность по вкладу",
+        "time" : {
+          "start" : 1526476041722,
+          "stop" : 1526476041811,
+          "duration" : 89
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "titleName",
+          "value" : "Рассчитайте доходность по вкладу"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Когда  выбрали валюту -  \"Рубли\"",
+      "time" : {
+        "start" : 1526476041812,
+        "stop" : 1526476041994,
+        "duration" : 182
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : "выбрали валюту - Рубли",
+        "time" : {
+          "start" : 1526476041812,
+          "stop" : 1526476041994,
+          "duration" : 182
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "currency",
+          "value" : "Рубли"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Когда  выбрали опцию -  \"Сумма\" и значение - \"2000000\"",
+      "time" : {
+        "start" : 1526476041994,
+        "stop" : 1526476042088,
+        "duration" : 94
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : "Выбрали опцию - Сумма и установили ей значение - 2000000",
+        "time" : {
+          "start" : 1526476041994,
+          "stop" : 1526476042088,
+          "duration" : 94
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "option",
+          "value" : "Сумма"
+        }, {
+          "name" : "valueOfOption",
+          "value" : "2000000"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Когда  установили срок на - \"6\" месяцев",
+      "time" : {
+        "start" : 1526476042088,
+        "stop" : 1526476042137,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : "установили срок на 6 месяцев",
+        "time" : {
+          "start" : 1526476042088,
+          "stop" : 1526476042137,
+          "duration" : 49
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "option",
+          "value" : "6"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Когда  выбрали опцию -  \"Ежемесячное пополнение\" и значение - \"30000\"",
+      "time" : {
+        "start" : 1526476042137,
+        "stop" : 1526476042211,
+        "duration" : 74
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : "Выбрали опцию - Ежемесячное пополнение и установили ей значение - 30000",
+        "time" : {
+          "start" : 1526476042137,
+          "stop" : 1526476042211,
+          "duration" : 74
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "option",
+          "value" : "Ежемесячное пополнение"
+        }, {
+          "name" : "valueOfOption",
+          "value" : "30000"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Когда  установили чекбокс -  \"Ежемесячная капитализация\"",
+      "time" : {
+        "start" : 1526476042211,
+        "stop" : 1526476044426,
+        "duration" : 2215
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : "установили чекбокс - Ежемесячная капитализация",
+        "time" : {
+          "start" : 1526476042212,
+          "stop" : 1526476044426,
+          "duration" : 2214
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "itemName",
+          "value" : "Ежемесячная капитализация"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Когда  установили чекбокс -  \"Частичное снятие\"",
+      "time" : {
+        "start" : 1526476044427,
+        "stop" : 1526476046709,
+        "duration" : 2282
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : "установили чекбокс - Частичное снятие",
+        "time" : {
+          "start" : 1526476044428,
+          "stop" : 1526476046709,
+          "duration" : 2281
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "itemName",
+          "value" : "Частичное снятие"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Тогда  проверили ставку - \"6.25%\"",
+      "time" : {
+        "start" : 1526476046711,
+        "stop" : 1526476046783,
+        "duration" : 72
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : "проверили ставку - 6.25%",
+        "time" : {
+          "start" : 1526476046713,
+          "stop" : 1526476046783,
+          "duration" : 70
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "rate",
+          "value" : "6.25%"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Тогда  проверили начисление -  \"65 132,87\"",
+      "time" : {
+        "start" : 1526476046784,
+        "stop" : 1526476046831,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : "проверили начисление - 65 132,87",
+        "time" : {
+          "start" : 1526476046784,
+          "stop" : 1526476046830,
+          "duration" : 46
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "earning",
+          "value" : "65 132,87"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Тогда  проверили пополнение -  \"150 000\"",
+      "time" : {
+        "start" : 1526476046831,
+        "stop" : 1526476046877,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : "проверили пополнение - 150 000",
+        "time" : {
+          "start" : 1526476046831,
+          "stop" : 1526476046877,
+          "duration" : 46
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "repl",
+          "value" : "150 000"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Тогда  проверили результат к снятию - \"2 215 132,87\"",
+      "time" : {
+        "start" : 1526476046877,
+        "stop" : 1526476046931,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : "проверили результат к снятию - 2 215 132,87",
+        "time" : {
+          "start" : 1526476046878,
+          "stop" : 1526476046930,
+          "duration" : 52
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "result",
+          "value" : "2 215 132,87"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "BaseSteps.tearDown()",
+      "time" : {
+        "start" : 1526476047854,
+        "stop" : 1526476047854,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 26,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Калькулятор ренессанс"
+  }, {
+    "name" : "story",
+    "value" : "вклады в рублях"
+  }, {
+    "name" : "host",
+    "value" : "JIGSAWZTW-ПК"
+  }, {
+    "name" : "package",
+    "value" : "Калькулятор ренессанс"
+  }, {
+    "name" : "suite",
+    "value" : "Калькулятор ренессанс"
+  }, {
+    "name" : "testClass",
+    "value" : "вклады в рублях"
+  }, {
+    "name" : "thread",
+    "value" : "4048@JIGSAWZTW-ПК.main(1)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

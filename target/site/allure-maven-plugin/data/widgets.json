@@ -1,0 +1,46 @@
+{
+  "summary" : {
+    "reportName" : "Allure Report",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "time" : {
+      "minDuration" : 16185,
+      "maxDuration" : 21182,
+      "sumDuration" : 37367,
+      "start" : 1526476026674,
+      "stop" : 1526476064173,
+      "duration" : 37499
+    }
+  },
+  "environment" : [ ],
+  "history-trend" : [ {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 2,
+    "unknown" : 0,
+    "total" : 2
+  } ],
+  "behaviors" : {
+    "total" : 1,
+    "items" : [ {
+      "name" : "Калькулятор ренессанс",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      }
+    } ]
+  },
+  "executors" : [ ],
+  "launches" : [ ]
+}

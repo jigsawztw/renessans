@@ -1,0 +1,83 @@
+{
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 2,
+    "unknown" : 0,
+    "total" : 2
+  },
+  "time" : {
+    "minDuration" : 16185,
+    "maxDuration" : 21182,
+    "sumDuration" : 37367,
+    "start" : 1526476026674,
+    "stop" : 1526476064173,
+    "duration" : 37499
+  },
+  "children" : [ {
+    "uid" : "4446bbf3098cb5b9",
+    "name" : "JIGSAWZTW-ПК",
+    "time" : {
+      "minDuration" : 16185,
+      "maxDuration" : 21182,
+      "sumDuration" : 37367,
+      "start" : 1526476026674,
+      "stop" : 1526476064173,
+      "duration" : 37499
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "463008085b97bad8",
+      "name" : "4048@JIGSAWZTW-ПК.main(1)",
+      "time" : {
+        "minDuration" : 16185,
+        "maxDuration" : 21182,
+        "sumDuration" : 37367,
+        "start" : 1526476026674,
+        "stop" : 1526476064173,
+        "duration" : 37499
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "8be9630c3e0ed20",
+        "name" : "вклады в долларах",
+        "time" : {
+          "start" : 1526476047988,
+          "stop" : 1526476064173,
+          "duration" : 16185
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "90e458f530a16137",
+        "name" : "вклады в рублях",
+        "time" : {
+          "start" : 1526476026674,
+          "stop" : 1526476047856,
+          "duration" : 21182
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  } ]
+}

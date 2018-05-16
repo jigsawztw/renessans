@@ -1,0 +1,104 @@
+{
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 2,
+    "unknown" : 0,
+    "total" : 2
+  },
+  "time" : {
+    "minDuration" : 16185,
+    "maxDuration" : 21182,
+    "sumDuration" : 37367,
+    "start" : 1526476026674,
+    "stop" : 1526476064173,
+    "duration" : 37499
+  },
+  "children" : [ {
+    "uid" : "904d7a476efc5239",
+    "name" : "Калькулятор ренессанс",
+    "time" : {
+      "minDuration" : 16185,
+      "maxDuration" : 21182,
+      "sumDuration" : 37367,
+      "start" : 1526476026674,
+      "stop" : 1526476064173,
+      "duration" : 37499
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "17c67e94a312ad24",
+      "name" : "вклады в долларах",
+      "time" : {
+        "minDuration" : 16185,
+        "maxDuration" : 16185,
+        "sumDuration" : 16185,
+        "start" : 1526476047988,
+        "stop" : 1526476064173,
+        "duration" : 16185
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "8be9630c3e0ed20",
+        "name" : "вклады в долларах",
+        "time" : {
+          "start" : 1526476047988,
+          "stop" : 1526476064173,
+          "duration" : 16185
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "e7717cb7f8826ef2",
+      "name" : "вклады в рублях",
+      "time" : {
+        "minDuration" : 21182,
+        "maxDuration" : 21182,
+        "sumDuration" : 21182,
+        "start" : 1526476026674,
+        "stop" : 1526476047856,
+        "duration" : 21182
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "90e458f530a16137",
+        "name" : "вклады в рублях",
+        "time" : {
+          "start" : 1526476026674,
+          "stop" : 1526476047856,
+          "duration" : 21182
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  } ]
+}

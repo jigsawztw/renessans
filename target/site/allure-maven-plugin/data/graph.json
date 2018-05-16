@@ -1,0 +1,21 @@
+[ {
+  "uid" : "8be9630c3e0ed20",
+  "name" : "вклады в долларах",
+  "time" : {
+    "start" : 1526476047988,
+    "stop" : 1526476064173,
+    "duration" : 16185
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90e458f530a16137",
+  "name" : "вклады в рублях",
+  "time" : {
+    "start" : 1526476026674,
+    "stop" : 1526476047856,
+    "duration" : 21182
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,9 @@
+pages\BasePage.class
+utils\TestProperties.class
+steps\CalcSteps.class
+pages\CalcPage.class
+steps\BaseSteps.class
+steps\MainSteps.class
+steps\ScenarioSteps.class
+utils\AllureReporter.class
+pages\MainPage.class
